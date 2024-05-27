@@ -1,0 +1,84 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e0f7fa; /* Color del fondo */
+    color: #333; /* Color del texto */
+}
+
+nav {
+    background-color: #00796b;
+    color: white;
+    padding: 1em;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 1em;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+section {
+    padding: 2em;
+    margin: 2em auto;
+    max-width: 800px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section h1, section h2 {
+    text-align: center;
+    color: #333;
+}
+
+#inicio {
+    background-color: #b2ebf2; /* Fondo para la sección "Inicio" */
+    color: #004d40; /* Texto para la sección "Inicio" */
+}
+
+#sobre-mi {
+    background-color: #80deea; /* Fondo para la sección "Sobre Mí" */
+    color: #004d40; /* Texto para la sección "Sobre Mí" */
+}
+
+#proyectos {
+    background-color: #4dd0e1; /* Fondo para la sección "Proyectos" */
+    color: #004d40; /* Texto para la sección "Proyectos" */
+}
+
+#experiencia {
+    background-color: #26c6da; /* Fondo para la sección "Experiencia" */
+    color: #004d40; /* Texto para la sección "Experiencia" */
+}
+
+#blog {
+    background-color: #00bcd4; /* Fondo para la sección "Blog" */
+    color: #004d40; /* Texto para la sección "Blog" */
+}
+
+#contacto {
+    background-color: #00acc1; /* Fondo para la sección "Contacto" */
+    color: #004d40; /* Texto para la sección "Contacto" */
+}
+
+footer {
+    background-color: #00796b;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
